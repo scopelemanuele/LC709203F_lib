@@ -16,11 +16,9 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   Serial.print("Voltage: ");
   Serial.println(sensor.getBatteryVoltage());
   Serial.print("Capacity: ");
   Serial.println(sensor.getBatteryLevelAccu());
-  // Serial.println(getVersion());
   delay(2000);
 }
